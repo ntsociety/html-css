@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title style="color: aqua;">CSS Selectors</title>
+
+    <style>
+        p {
+            color: green;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        footer .bold {
+            font-weight: normal;
+            font-size: 25px;
+        }
+        
+        #title {
+            color: darkblue;
+        }
+        
+        header p {
+            font-size: 25px;
+        }
+        
+        header p:first-child {
+            font-size: 35px;
+        }
+        
+        footer p {}
+        
+        div p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Paragraph en vert</p>
+        <p class="bold">Paragraph en gras</p>
+    </header>
+    <p>Paragraph en vert</p>
+    <p class="bold">Paragraph en gras</p>
+    <div id="title">Bleu sombre
+        <br/>
+        <p>Paragraph avec background-color yellow</p>
+    </div>
+    <footer>
+        <p class="bold">Paragraph en gras</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, harum. Optio autem reiciendis dolor tempore, reprehenderit incidunt minus earum sed delectus eveniet temporibus, adipisci architecto cupiditate doloribus, explicabo itaque maxime.</p>
+    </footer>
+</body>
+
+</html>
